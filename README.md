@@ -1,6 +1,6 @@
 GCDproject
 ==========
-  This is the project assignement for the 'Getting and Cleaning Data' (GTD) course on Coursera (October 2014).
+  This is the project assignement for the 'Getting and Cleaning Data' (GCD) course on Coursera (October 2014).
   
   GOAL:
   To generate a tidy data set with the average of each body movement variable for each activity (walking, running, etc.) for each individual subject collected from the accelerometers in a Samsung Galaxy S smartphone.
