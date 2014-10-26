@@ -69,8 +69,8 @@ GCDproject
     ## 4. Create a second, independent tidy data set with
     ##   the average of each variable for each activity and each subject.
     ##   Obs: this code requires library "data.table" installed.
-    ## NOTE: we used the wide (not the narrow) form of data tidiness
+    ##   NOTE: we used the wide (not the narrow) form of data tidiness
     ##   because we think that the narrow form would violate the rule
-    ## "Each variable forms a column"..
-    ## ..by having multiple variables stored in one same column.
-    ## the last operation (i.e. DT) will be returned
+    ##   "Each variable forms a column"..
+    ##   ..by having multiple variables stored in one same column.
+    ##   the last operation (i.e. DT) will be returned
