@@ -77,7 +77,7 @@ i.e. the absolute (module) value of the variable in question.
 
 ------------------------
 For time variables (prefix 't') the units are average gravity units (g). 
-For frequency variables (prefix 'f') the units are average radians/second. 
+For frequency variables (prefix 'f') the units are average radians/second (rad/s). 
 
 ------------------------
 The list of the remaing 68 variables names follows:
