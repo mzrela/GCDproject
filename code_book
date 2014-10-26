@@ -8,14 +8,17 @@ These average values are grouped by subject (first column) and activity type (se
 Columns description:
 
 1. subject
+Type: integer
 
 The experiments have been carried out with a group of 30 volunteers (subjects)
-within an age bracket of 19-48 years. This field contains the identifier of the subject who carried out the experiment.
+within an age bracket of 19-48 years. This field contains the identifier (range 1 to 30) of the subject who carried out the experiment.
 
 
 2. activity
+Type: integer
+
 Each volunteer performed six activities wearing a smartphone (Samsung Galaxy S II) on the waist.
-This field represents each of the six activities:
+This field has an integar (range 1 to 6) each representing one of the six possible activities:
  
 1 WALKING
 2 WALKING_UPSTAIRS
@@ -71,6 +74,10 @@ This field indicates that the original reading was either the average or the sta
 The trailing '{x,y,z}' character is used to denote 3-axial signals in the X, Y and Z directions.
 When no trailing {x,y,z} is present this indicates the estimated body acceleration,
 i.e. the absolute (module) value of the variable in question.
+
+------------------------
+For time variables (prefix 't') the units are average gravity units (g). 
+For frequency variables (prefix 'f') the units are average radians/second. 
 
 ------------------------
 The list of the remaing 68 variables names follows:
