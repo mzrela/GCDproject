@@ -7,7 +7,7 @@ GCDproject
   A full description is available at the site where the data was obtained:
   http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
   
-  This the project assignement for the 'Getting and Cleaning Data' (GTD) course on Coursera (October 2014).
+  This is the project assignement for the 'Getting and Cleaning Data' (GTD) course on Coursera (October 2014).
   
 
 #NOTES
