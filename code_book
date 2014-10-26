@@ -1,0 +1,143 @@
+CodeBook
+=================
+
+The 68 fields present on this tidy data set are all average values extracted from accelerometer
+and gyroscope 3-axial raw signals' readings from a Samsung Galaxy S smartphone.
+These average values are grouped by subject (first column) and activity type (second column).
+
+Columns description:
+
+1. subject
+
+The experiments have been carried out with a group of 30 volunteers (subjects)
+within an age bracket of 19-48 years. This field contains the identifier of the subject who carried out the experiment.
+
+
+2. activity
+Each volunteer performed six activities wearing a smartphone (Samsung Galaxy S II) on the waist.
+This field represents each of the six activities:
+ 
+1 WALKING
+2 WALKING_UPSTAIRS
+3 WALKING_DOWNSTAIRS
+4 SITTING
+5 STANDING
+6 LAYING
+
+------------------------
+The reaming 66 variables all refer to average values of readings and the variable name structure
+is organized into character fields as follows:
+
+{t,f}{body,gravity}{acc,gyro}{jerk,jerkmag,“”}{mean,std}{x.y,z,””}
+
+These fields are described below:
+
+{t,f}
+
+The leading 't' denotes the average of a time domain signals captured at a constant rate of 50 Hz.
+These signals were filtered using a median filter and a 3rd order low pass Butterworth filter with
+a corner frequency of 20 Hz to remove noise.
+
+The leading 'f' indicates a frequency domain signal meaning that a Fast Fourier Transform (FFT)
+was applied to some of these signals producing the fbodyacc{x,y,z}, fbodyacckerk{x,y,z}, fbodygyro{x,y,z},
+fbodyaccjerkmag, fbodygyromag and fbodygyrojerkmag signals.
+
+{body,gravity}
+
+These fields represent distinct body and gravity acceleration signals.
+The gravitational force is assumed to have only low frequency components, therefore a low pass
+Butterworth filter with 0.3 Hz cutoff frequency was used to discriminate both signals.
+
+{acc,gyro}
+
+This field indicates whether the date originated from the accelerometer or gyroscope embedded sensors.
+The accelerator generates a 3-axial (x,y,z) linear acceleration and the gyroscope generates a 3-axial
+angular velocity. These readings are the average from the originally collected data at a constant rate of 50Hz. 
+
+
+{jerk,jerkmag,“”}
+
+This field represents Jerk signals (jerk) obtained by deriving the body linear acceleration and angular
+velocity readings or the Jerk magnitude (jerkmag) of these three-dimensional signals using the Euclidean norm.
+Jerk was not calculated for all signals (“”).
+
+
+{mean,std}
+
+This field indicates that the original reading was either the average or the standard deviation of the acceleration signals. Note that this tidy dataset has averaged all the readings (which might not make sense for a stabdard deviation value).
+
+{x.y,z,””}
+
+The trailing '{x,y,z}' character is used to denote 3-axial signals in the X, Y and Z directions.
+When no trailing {x,y,z} is present this indicates the estimated body acceleration,
+i.e. the absolute (module) value of the variable in question.
+
+------------------------
+The list of the remaing 68 variables names follows:
+
+3.  tbodyaccmeanx
+4.  tbodyaccmeany
+5.  tbodyaccmeanz
+6.  tbodyaccstdx
+7.  tbodyaccstdy
+8.  tbodyaccstdz
+9.  tgravityaccmeanx
+10. tgravityaccmeany
+11. tgravityaccmeanz
+12. tgravityaccstdx
+13. tgravityaccstdy
+14. tgravityaccstdz
+15. tbodyaccjerkmeanx
+16. tbodyaccjerkmeany
+17. tbodyaccjerkmeanz
+18. tbodyaccjerkstdx
+19. tbodyaccjerkstdy
+20. tbodyaccjerkstdz
+21. tbodygyromeanx
+22. tbodygyromeany
+23. tbodygyromeanz
+24. tbodygyrostdx
+25. tbodygyrostdy
+26. tbodygyrostdz
+27. tbodygyrojerkmeanx
+28. tbodygyrojerkmeany
+29. tbodygyrojerkmeanz
+30. tbodygyrojerkstdx
+31. tbodygyrojerkstdy
+32. tbodygyrojerkstdz
+33. tbodyaccmagmean
+34. tbodyaccmagstd
+35. tgravityaccmagmean
+36. tgravityaccmagstd
+37. tbodyaccjerkmagmean
+38. tbodyaccjerkmagstd
+39. tbodygyromagmean
+40. tbodygyromagstd
+41. tbodygyrojerkmagmean
+42. tbodygyrojerkmagstd
+43. fbodyaccmeanx
+44. fbodyaccmeany
+45. fbodyaccmeanz
+46. fbodyaccstdx
+47. fbodyaccstdy
+48. fbodyaccstdz
+49. fbodyaccjerkmeanx
+50. fbodyaccjerkmeany
+51. fbodyaccjerkmeanz
+52. fbodyaccjerkstdx
+53. fbodyaccjerkstdy
+54. fbodyaccjerkstdz
+55. fbodygyromeanx
+56. fbodygyromeany
+57. fbodygyromeanz
+58. fbodygyrostdx
+59. fbodygyrostdy
+60. fbodygyrostdz
+61. fbodyaccmagmean
+62. fbodyaccmagstd
+63. fbodybodyaccjerkmagmean
+64. fbodybodyaccjerkmagstd
+65. fbodybodygyromagmean
+66. fbodybodygyromagstd
+67. fbodybodygyrojerkmagmean
+68. fbodybodygyrojerkmagstd
