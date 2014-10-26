@@ -83,7 +83,7 @@ For time variables (prefix 't') the units are average gravity units (g).
 For frequency variables (prefix 'f') the units are average radians/second (rad/s). 
 
 ------------------------
-The list of the remaing 68 variables names follows:
+The list of these remaing 66 variables names follows:
 
 3.  tbodyaccmeanx
 4.  tbodyaccmeany
