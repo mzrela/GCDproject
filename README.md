@@ -37,11 +37,11 @@ GCDproject
  
     ## 1.Merge the training and the test sets to create one unified data set.
     ## 1.1-start by getting the training observations
-    ## get the columns to merge
-    ## merge columns into unified trainSet of observations 
+    ##   get the columns to merge
+    ##   merge columns into unified trainSet of observations 
     ## 1.2-now, go and get the test observations
-    ## get the columns to merge
-    ## merge columns into unified testSet of observations 
+    ##   get the columns to merge
+    ##   merge columns into unified testSet of observations 
     ## 1.3-finally merge the rows of the two datasets into one
 
     ## ************************************************
@@ -54,23 +54,23 @@ GCDproject
     ##   the string 'mean()' or the string 'std()' on the name.
     ##   Those headers are on the './features.txt' file.
     
-    ## read the headers file
-    #add labels to ease manipulation
-    ## extract the columns whose headers' names include 'mean' or 'std'
+    ##   read the headers file
+    ##   add labels to ease manipulation
+    ##   extract the columns whose headers' names include 'mean' or 'std'
     ##   "+2" because we have added 2 fields (subject and activity)
     ##   to the original datafile
     
     ## ************************************************
     ## 3.Label the data set with descriptive variable names. 
-    ## We shall use the original names from the "features.txt" file
-    ## plus the initial two new fields, 'subject' and 'activity'
+    ##   We shall use the original names from the "features.txt" file
+    ##   plus the initial two new fields, 'subject' and 'activity'
     
     ## ************************************************
     ## 4. Create a second, independent tidy data set with
-    ## the average of each variable for each activity and each subject.
-    ## Obs: this code requires library "data.table" installed.
+    ##   the average of each variable for each activity and each subject.
+    ##   Obs: this code requires library "data.table" installed.
     ## NOTE: we used the wide (not the narrow) form of data tidiness
-    ## because we think that the narrow form would violate the rule
+    ##   because we think that the narrow form would violate the rule
     ## "Each variable forms a column"..
     ## ..by having multiple variables stored in one same column.
     ## the last operation (i.e. DT) will be returned
