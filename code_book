@@ -11,7 +11,8 @@ Columns description:
 Type: integer
 
 The experiments have been carried out with a group of 30 volunteers (subjects)
-within an age bracket of 19-48 years. This field contains the identifier (range 1 to 30) of the subject who carried out the experiment.
+within an age bracket of 19-48 years. This field contains the identifier (range 1 to 30) of the subject who
+carried out the experiment.
 
 
 2. activity
@@ -67,7 +68,9 @@ Jerk was not calculated for all signals (“”).
 
 {mean,std}
 
-This field indicates that the original reading was either the average or the standard deviation of the acceleration signals. Note that this tidy dataset has averaged all the readings (which might not make sense for a stabdard deviation value).
+This field indicates that the original reading was either the average or the standard deviation of the
+acceleration signals. Note that this tidy dataset has averaged all the readings (which might not make
+sense for a standard deviation value).
 
 {x.y,z,””}
 
