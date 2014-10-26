@@ -2,7 +2,7 @@ GCDproject
 ==========
 
 
-  #GOAL
+  GOAL:
   To generate a tidy data set with the average of each body movement variable for each activity (walking, running, etc.) for each individual subject collected from the accelerometers in a Samsung Galaxy S smartphone.
   A full description is available at the site where the data was obtained:
   http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
@@ -12,7 +12,7 @@ GCDproject
 
 #NOTES
   
-1: this R script assumes that the Samsung data is in the working directory (i.e. no special directory positioning will be provided). Therefore we are assuming that the two sudirectories 'train' and 'test' with the actual observations are present.
+1: the 'run_analysis' R script assumes that the Samsung data is in the working directory (i.e. no special directory positioning will be provided). Therefore we are assuming that the two sudirectories 'train' and 'test' with the actual observations are present.
 
 2: this function requires that library "data.table" is installed
 
